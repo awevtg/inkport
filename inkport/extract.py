@@ -8,7 +8,6 @@ fancy yet - just proves we can pull readable content out of a webpage.
 import requests
 from bs4 import BeautifulSoup
 
-# For now we hardcode one URL. Replace this with one of your own
 # Medium or Substack article links to test it on real content.
 URL = "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
 
@@ -17,9 +16,10 @@ def fetch_html(url):
     """Download the raw HTML of a page."""
     # A User-Agent header makes our script look like a normal browser
     # request. Some sites block requests that don't have one.
+    # medium blocked me when i used a user agent,so i switched to wikipedia for testing.
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
-    response.raise_for_status()  # crash loudly if the request failed
+    response.raise_for_status()  # crash loudly if failed
     return response.text
 
 
