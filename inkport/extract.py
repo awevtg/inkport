@@ -4,7 +4,9 @@ InkPort - Step 1: Extract an article's title and text from a URL.
 This is the very first building block of InkPort. It doesn't do anything
 fancy yet - just proves we can pull readable content out of a webpage.
 """
+# added a json import on the file to use it later for saving the extracted data.
 
+import json 
 import requests
 from bs4 import BeautifulSoup
 
@@ -14,9 +16,7 @@ URL = "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
 
 def fetch_html(url):
     """Download the raw HTML of a page."""
-    # A User-Agent header makes our script look like a normal browser
-    # request. Some sites block requests that don't have one.
-    # medium blocked me when i used a user agent,so i switched to wikipedia for testing.
+ # medium blocked me when i used a user agent,so i switched to wikipedia for testing.
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
     response.raise_for_status()  # crash loudly if failed
@@ -32,7 +32,6 @@ def extract_title(soup):
 
 def extract_text(soup):
     """Pull the main body text out of the parsed HTML."""
-    # Most article pages put body content inside <p> tags.
     # This is a rough first pass - real Medium/Substack pages need
     # smarter targeting later, but this proves the concept.
     paragraphs = soup.find_all("p")
@@ -55,6 +54,18 @@ def main():
     print("\n--- TEXT ---")
     print(text[:1000])  # just show the first 1000 characters for now
     print("\n...(truncated)" if len(text) > 1000 else "")
+
+    article = {
+        "url": URL,
+        "title": title,
+        "text": text,
+
+    }
+
+    with open ("article.json", "w", encoding ="utf-8") as f:
+        json.dump(article, f, ensure_ascii= False)
+
+        print("\nSaved to article.json")
 
 
 if __name__ == "__main__":
