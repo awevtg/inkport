@@ -19,7 +19,7 @@ def fetch_html(url):
     # medium blocked me when i used a user agent,so i switched to wikipedia for testing.
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
-    response.raise_for_status()  # crash loudly if failed
+    response.raise_for_status()  # crash loudly if failed. 
     return response.text
 
 
