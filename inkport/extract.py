@@ -38,6 +38,14 @@ def extract_text(soup):
     text = "\n\n".join(p.get_text(" ", strip=True) for p in paragraphs)
     return text
 
+def extract_headings(soup):
+    headings = soup.find_all(["h1", "h2", "h3", "h4"])
+    return [heading.get_text(" ", strip=True) for heading in headings]
+
+def extract_images(soup):
+    images =soup.find_all("img") 
+    return [img.get("src") for img in images if img.get("src")]
+
 
 def main():
     print(f"Fetching: {URL}")
@@ -47,6 +55,9 @@ def main():
 
     title = extract_title(soup)
     text = extract_text(soup)
+    headings = extract_headings(soup)
+    images = extract_images(soup)
+
 
     print("\n--- TITLE ---")
     print(title)
@@ -54,12 +65,16 @@ def main():
     print("\n--- TEXT ---")
     print(text[:1000])  # just show the first 1000 characters for now
     print("\n...(truncated)" if len(text) > 1000 else "")
+    print(headings[:10]) 
+    print("\n--- IMAGES ---") 
+    print(images[:5]) # just show 5 images for now
 
     article = {
         "url": URL,
         "title": title,
         "text": text,
-
+        "headings": headings,
+        "images": images
     }
 
     with open ("article.json", "w", encoding ="utf-8") as f:
@@ -70,5 +85,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
 
