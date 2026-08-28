@@ -35,7 +35,7 @@ def extract_text(soup):
     # This is a rough first pass - real Medium/Substack pages need
     # smarter targeting later, but this proves the concept.
     paragraphs = soup.find_all("p")
-    text = "\n\n".join(p.get_text(strip=True) for p in paragraphs)
+    text = "\n\n".join(p.get_text(" ", strip=True) for p in paragraphs)
     return text
 
 
@@ -70,3 +70,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+
