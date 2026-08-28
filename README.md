@@ -46,7 +46,7 @@ WordPress ─┘
 
 🚧 Early prototype stage. Right now InkPort can:
 - [x] Fetch a webpage and extract its `<title>` and paragraph text
-- [ ] Extract headings, images, and links
+- [x] Extract headings, images, and links
 - [ ] Store extracted content as canonical JSON
 - [ ] Convert canonical JSON to HTML / Markdown
 - [ ] Side-by-side preview (Substack ↔ Medium)
