@@ -46,6 +46,10 @@ def extract_images(soup):
     images =soup.find_all("img") 
     return [img.get("src") for img in images if img.get("src")]
 
+def extract_links(soup):
+    links =soup.find_all("a")
+    return [a.get("href") for a in links if a.get("href")]
+
 
 def main():
     print(f"Fetching: {URL}")
@@ -57,6 +61,7 @@ def main():
     text = extract_text(soup)
     headings = extract_headings(soup)
     images = extract_images(soup)
+    links =extract_links(soup)
 
 
     print("\n--- TITLE ---")
@@ -68,13 +73,17 @@ def main():
     print(headings[:10]) 
     print("\n--- IMAGES ---") 
     print(images[:5]) # just show 5 images for now
+    print("\n--- LINKS ---")
+    print(links[:10]) #just show 10 links for now
+
 
     article = {
         "url": URL,
         "title": title,
         "text": text,
         "headings": headings,
-        "images": images
+        "images": images,
+        "links": links,
     }
 
     with open ("article.json", "w", encoding ="utf-8") as f:
