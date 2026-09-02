@@ -55,3 +55,21 @@ Maybe every summer before adulthood asks for something different in return. Mine
 I think we all tell ourselves stories before adulthood. My parents’ was about the life they would have after I left home. My father’s was about the friends waiting for him outside the litchi garden.
 
 None of those stories turned out exactly as they were imagined, but all of them changed the people who had believed them.
+
+## Images
+
+![Image 1](https://cdn-images-1.medium.com/max/1024/1*WVU9CQ7olAj3HMFzQyfFVA.jpeg)
+
+![Image 2](https://cdn-images-1.medium.com/max/1024/1*OzqqMYxS93hNUMSgZmYXtw.jpeg)
+
+![Image 3](https://cdn-images-1.medium.com/max/1024/1*TBwVe2n-Ac9TCNNYnBtZlA.jpeg)
+
+![Image 4](https://cdn-images-1.medium.com/max/640/1*ZD6XKxeVjOAVJJG293pBsQ.jpeg)
+
+![Image 5](https://cdn-images-1.medium.com/max/975/1*SaPPfYwAhli_qYzjRr8NJA.jpeg)
+
+![Image 6](https://cdn-images-1.medium.com/max/1024/1*bWSmOKU2rD8seWrziFTSQA.jpeg)
+
+![Image 7](https://cdn-images-1.medium.com/max/1024/1*TM0uqgFvcD370JXeK8bW3w.jpeg)
+
+![Image 8](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=1f93faf3380d)

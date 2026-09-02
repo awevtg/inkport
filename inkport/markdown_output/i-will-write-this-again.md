@@ -39,3 +39,11 @@ I don’t know who I am without them.
 Them. A man in his early fifties, married for thirty years to a woman now in her mid-forties. They have two daughters, the elder one twenty-two. They have no idea who I am becoming. And perhaps that’s why I don’t know who I am without them. It is one in the morning, and they have just left. I know how long it will take for them to reach the hotel, I know the cab they are in now, I know the intersection they have already passed by now, I close my eyes and I know that if I call them now, just now instead of writing this, they will turn back.
 
 a draft of drafts, i am sorry that it has no structure.
+
+## Images
+
+![Image 1](https://cdn-images-1.medium.com/max/736/0*2GUvySk_XjW6B_wb.jpeg)
+
+![Image 2](https://cdn-images-1.medium.com/max/736/0*X2dhGqtP5s33oM5e.jpeg)
+
+![Image 3](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=cb2ffbc7625e)

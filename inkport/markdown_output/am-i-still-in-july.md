@@ -35,3 +35,9 @@ I still remember the sea, how I slipped my unlucky foot, just twelve, opening my
 My tomorrow never came.
 
 samayra - Medium
+
+## Images
+
+![Image 1](https://cdn-images-1.medium.com/max/744/1*Yg6f5hrTy7lcG3DjSqKfyg.jpeg)
+
+![Image 2](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=078a8bc66b24)

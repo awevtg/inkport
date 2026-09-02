@@ -39,3 +39,17 @@ Maybe I don’t need to think about continuity so much. Water doesn’t worry ab
 Then again, I have spent this entire essay believing that words have power. It would be strange to pretend they are just water now.
 
 used so many maybes!!
+
+## Images
+
+![Image 1](https://cdn-images-1.medium.com/max/1024/0*TC9g5rzE__pslwBD.jpeg)
+
+![Image 2](https://cdn-images-1.medium.com/max/736/0*zbLwvJO0sqRxOECv.jpeg)
+
+![Image 3](https://cdn-images-1.medium.com/max/1024/0*7MKDTh3R8SJbfpGC.jpeg)
+
+![Image 4](https://cdn-images-1.medium.com/max/736/0*fbdkhVmaO_5Rmuxe.jpeg)
+
+![Image 5](https://cdn-images-1.medium.com/max/500/0*r8Ot3hgodQQ65lec.jpeg)
+
+![Image 6](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=ca1459e52daf)

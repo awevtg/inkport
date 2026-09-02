@@ -43,6 +43,16 @@ def article_to_markdown(article):
     # which is also exactly how Markdown separates paragraphs -
     # so no real conversion is needed here, just pass it through.
     lines.append(article.get("text", ""))
+        # Images, if there are any, using Markdown's image syntax:
+    # ![alt text](image-url)
+    images = article.get("images", [])
+    if images:
+        lines.append("")
+        lines.append("## Images")
+        lines.append("")
+        for i, image_url in enumerate(images, start=1):
+            lines.append(f"![Image {i}]({image_url})")
+            lines.append("")
 
     return "\n".join(lines)
 
@@ -70,3 +80,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

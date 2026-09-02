@@ -17,3 +17,9 @@ I will call, save the numbers of strangers. I will remember, reminding myself: o
 I will reach out to say something, meaning everything, meaning nothing.
 
 I know you are on the other end, the end back home, back to you.
+
+## Images
+
+![Image 1](https://cdn-images-1.medium.com/max/593/1*avIRmLV6r0FVAx7dULpzSw.jpeg)
+
+![Image 2](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b75d6d876298)
