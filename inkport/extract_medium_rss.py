@@ -25,6 +25,12 @@ def clean_html_to_text(html):
     text = "\n\n".join(p.get_text(" ", strip=True) for p in paragraphs)
     return text
 
+def extract_images_from_html(html): 
+    """Extract image URLS from articles"""
+    soup = BeautifulSoup(html, "html.parser")
+    images = soup.find_all("img")
+    return [img.get("src") for img in images if img.get("src")]
+
 
 def main():
     print(f"Fetching feed: {FEED_URL}")
@@ -46,6 +52,7 @@ def main():
             "published": entry.get("published", "unknown"),
             "tags": [tag.term for tag in entry.get("tags", [])],
             "text": clean_html_to_text(raw_html),
+            "images": extract_images_from_html(raw_html)
         }
         articles.append(article)
 
