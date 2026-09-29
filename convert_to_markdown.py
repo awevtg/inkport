@@ -8,6 +8,8 @@ workflow: Article URL -> Extract -> Canonical JSON -> Convert -> Export.
 import json
 import os
 import re
+import mistune
+
 
 
 def slugify(title):
@@ -56,6 +58,48 @@ def article_to_markdown(article):
 
     return "\n".join(lines)
 
+def article_to_html(article):
+    markdown_text = article_to_markdown(article)
+    body = mistune.html(markdown_text)
+
+    title = article.get("title", "InkPort Article")
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <style>
+        body {{
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-family: system-ui, sans-serif;
+            line-height: 1.7;
+            color: #222;
+        }}
+
+        img {{
+            max-width: 100%;
+            height: auto;
+        }}
+
+        h1, h2, h3 {{
+            line-height: 1.3;
+        }}
+
+        code {{
+            background: #f3f3f3;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }}
+    </style>
+</head>
+<body>
+{body}
+</body>
+</html>"""
 
 def main():
     with open("medium_articles.json", "r", encoding="utf-8") as f:

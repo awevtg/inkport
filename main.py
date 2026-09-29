@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from convert_to_markdown import article_to_markdown
+from convert_to_markdown import article_to_markdown, article_to_html
 from extract import (
     extract_headings,
     extract_images,
@@ -91,4 +91,4 @@ def convert(req: ConvertRequest):
             detail=f"Could not fetch that page ({e}). Medium links only work for recent posts by an @author.",
         )
 
-    return {"article": article, "markdown": article_to_markdown(article)}
+    return {"article": article, "markdown": article_to_markdown(article), "html": article_to_html(article)}

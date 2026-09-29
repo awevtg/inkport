@@ -29,6 +29,7 @@
     <input id="url" placeholder="https://..." />
     <button id="go">Convert</button>
     <button id="dl" disabled>Download .md</button>
+    <button id="dlhtml" disabled>Download .html</button>
   </div>
   <div id="status"></div>
 
@@ -40,7 +41,7 @@
 <script>
   const API = "http://127.0.0.1:8000/convert";
   const $ = id => document.getElementById(id);
-  let markdown = "", filename = "article.md";
+  let markdown = "", html = "", filename = "article.md", htmlFilename = "article.html";
 
   async function convert() {
     const url = $("url").value.trim();
@@ -61,8 +62,10 @@
       $("original").textContent = a.title + "\n\n" + (a.text || "");
       markdown = data.markdown;
       $("md").textContent = markdown;
-      filename = a.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") + ".md";
+      html = data.html;
       $("dl").disabled = false;
+      $("dlhtml").disabled = false;
+      const slug = a.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); filename = slug + ".md"; htmlFilename = slug + ".html";
       $("status").textContent = "";
     } catch (e) {
       $("status").textContent = "Error: " + e.message;
@@ -77,9 +80,19 @@
     link.click();
   }
 
+  function downloadHtml() {
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(
+    new Blob([html], { type: "text/html" })
+  );
+  link.download = htmlFilename;
+  link.click();
+  }
+
   $("go").addEventListener("click", convert);
   $("url").addEventListener("keydown", e => { if (e.key === "Enter") convert(); });
   $("dl").addEventListener("click", download);
+  $("dlhtml").addEventListener("click", downloadHtml);
 </script>
 </body>
 </html>
