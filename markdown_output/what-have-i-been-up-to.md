@@ -6,24 +6,20 @@
 
 digital work 2026
 
-## Images
+![](https://cdn-images-1.medium.com/max/900/1*Mz3YKqaMVaieaV1B0QRUqw.png)![](https://cdn-images-1.medium.com/max/900/1*WriBh6r4dLCYoG_ldHhTzw.png)![](https://cdn-images-1.medium.com/max/900/1*Btr11HeJyccx-HB77XsLdg.png)
 
-![Image 1](https://cdn-images-1.medium.com/max/900/1*Mz3YKqaMVaieaV1B0QRUqw.png)
+i was so proud of it…
 
-![Image 2](https://cdn-images-1.medium.com/max/900/1*WriBh6r4dLCYoG_ldHhTzw.png)
+![](https://cdn-images-1.medium.com/max/1024/1*tMx0ToJ5GTAQ5HO1dNlSnw.png)![](https://cdn-images-1.medium.com/max/1024/1*SOvF53xsSAl8HaY1sQ3ing.png)
 
-![Image 3](https://cdn-images-1.medium.com/max/900/1*Btr11HeJyccx-HB77XsLdg.png)
+experimenting………….
 
-![Image 4](https://cdn-images-1.medium.com/max/1024/1*tMx0ToJ5GTAQ5HO1dNlSnw.png)
+![](https://cdn-images-1.medium.com/max/1024/1*VzXQYomH1h1pfOa8qBo5Rg.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*oNI5kF8LAmBqLdxbsL9JQw.jpeg)
 
-![Image 5](https://cdn-images-1.medium.com/max/1024/1*SOvF53xsSAl8HaY1sQ3ing.png)
+impulsive decisions
 
-![Image 6](https://cdn-images-1.medium.com/max/1024/1*VzXQYomH1h1pfOa8qBo5Rg.jpeg)
+![](https://cdn-images-1.medium.com/max/1024/1*BGRdRxSdWHDYDHMzv4jmsQ.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*Mfv7nCakUcyVdbepISfCoA.jpeg)
 
-![Image 7](https://cdn-images-1.medium.com/max/1024/1*oNI5kF8LAmBqLdxbsL9JQw.jpeg)
+impulsive decisions part2
 
-![Image 8](https://cdn-images-1.medium.com/max/1024/1*BGRdRxSdWHDYDHMzv4jmsQ.jpeg)
-
-![Image 9](https://cdn-images-1.medium.com/max/1024/1*Mfv7nCakUcyVdbepISfCoA.jpeg)
-
-![Image 10](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=79a653eeb92d)
+<https://medium.com/media/134a6a01e2cebf8d6ad459b28fa34b91/href>

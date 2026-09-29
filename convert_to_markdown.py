@@ -46,7 +46,7 @@ def article_to_markdown(article):
         # Images, if there are any, using Markdown's image syntax:
     # ![alt text](image-url)
     images = article.get("images", [])
-    if images:
+    if images and "![" not in article.get("text", ""):
         lines.append("")
         lines.append("## Images")
         lines.append("")

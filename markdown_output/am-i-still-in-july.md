@@ -4,7 +4,7 @@
 
 **Tags:** `writing`, `memoir`, `self-reflection`, `journaling`, `creative-non-fiction`
 
-24/07/2026
+**24/07/2026**
 
 It is July, and Jennie’s new song, A Little Less Than a Lover, is on loop in my ears. I have been procrastinating since last week, avoiding some important articles while cramming maths like a human I no longer recognise. As I write this, I realise that the last time I wrote in this document was in June, and now July is coming to an end. Before I was going to write this, I wondered why some months have 30 and 31 days, like why August has 31 but not September. It explained that the reason is an amalgam of superstitions of Romans and their imperial vanity. Julius Caesar (the month of July was named after him) gave July thirty-one days because it was named after him, and Augustus, the jealous fellow, wanted his month, August, to have thirty-one days too.
 
@@ -20,7 +20,11 @@ What if I am not normal? What if the shell I lived in until now was a better pla
 
 I miss you.
 
-25/07/2026
+![](https://cdn-images-1.medium.com/max/744/1*Yg6f5hrTy7lcG3DjSqKfyg.jpeg)
+
+pin
+
+**25/07/2026**
 
 It is a Saturday, and after months I am waiting for a Sunday the way I used to. In the school where I spent most of my primary education, the classes were only held until midday. I only liked that day mainly because it was activity day and every period extended a little more than usual, longer and less tiring.
 
@@ -34,10 +38,4 @@ I still remember the sea, how I slipped my unlucky foot, just twelve, opening my
 
 My tomorrow never came.
 
-samayra - Medium
-
-## Images
-
-![Image 1](https://cdn-images-1.medium.com/max/744/1*Yg6f5hrTy7lcG3DjSqKfyg.jpeg)
-
-![Image 2](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=078a8bc66b24)
+[samayra - Medium](https://medium.com/@se_emdtobego_od)

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InkPort</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; background: #faf8f5; color: #222; }
+  h1 { margin: 0 0 4px; }
+  .sub { color: #666; margin-bottom: 20px; }
+  .bar { display: flex; gap: 8px; margin-bottom: 16px; }
+  input { flex: 1; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; }
+  button { padding: 10px 18px; font-size: 16px; border: 0; border-radius: 6px; background: #222; color: #fff; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  #status { margin-bottom: 12px; color: #a33; min-height: 1em; }
+  .panes { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .pane { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 14px; height: 65vh; overflow: auto; }
+  .pane h2 { margin-top: 0; font-size: 13px; text-transform: uppercase; color: #888; }
+  pre { white-space: pre-wrap; word-wrap: break-word; font-family: inherit; margin: 0; }
+  #md { font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+  @media (max-width: 800px) { .panes { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+  <h1>InkPort</h1>
+  <div class="sub">Paste an article link. Get portable Markdown.</div>
+
+  <div class="bar">
+    <input id="url" placeholder="https://..." />
+    <button id="go">Convert</button>
+    <button id="dl" disabled>Download .md</button>
+  </div>
+  <div id="status"></div>
+
+  <div class="panes">
+    <div class="pane"><h2>Extracted article</h2><pre id="original"></pre></div>
+    <div class="pane"><h2>Markdown</h2><pre id="md"></pre></div>
+  </div>
+
+<script>
+  const API = "http://127.0.0.1:8000/convert";
+  const $ = id => document.getElementById(id);
+  let markdown = "", filename = "article.md";
+
+  async function convert() {
+    const url = $("url").value.trim();
+    if (!url) return;
+    $("status").textContent = "Converting...";
+    $("go").disabled = true;
+    try {
+      const res = await fetch(API, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url })
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(typeof data.detail === "string" ? data.detail : "Something went wrong");
+      }
+      const a = data.article;
+      $("original").textContent = a.title + "\n\n" + (a.text || "");
+      markdown = data.markdown;
+      $("md").textContent = markdown;
+      filename = a.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") + ".md";
+      $("dl").disabled = false;
+      $("status").textContent = "";
+    } catch (e) {
+      $("status").textContent = "Error: " + e.message;
+    }
+    $("go").disabled = false;
+  }
+
+  function download() {
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(new Blob([markdown], { type: "text/markdown" }));
+    link.download = filename;
+    link.click();
+  }
+
+  $("go").addEventListener("click", convert);
+  $("url").addEventListener("keydown", e => { if (e.key === "Enter") convert(); });
+  $("dl").addEventListener("click", download);
+</script>
+</body>
+</html>

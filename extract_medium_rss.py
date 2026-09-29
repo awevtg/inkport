@@ -13,24 +13,34 @@ feedparser library to parse the feed. This is a more reliable and legitimate way
 import json
 import feedparser
 from bs4 import BeautifulSoup
+from markdownify import markdownify as md
 
 # RSS feed URL pattern: medium.com/feed/@username
 FEED_URL = "https://medium.com/feed/@se_emdtobego_od"
 
 
+def is_tracking_pixel(src):
+    return "medium.com/_/stat" in src
+
+
 def clean_html_to_text(html):
-    """Turn the article's raw HTML content into plain text."""
+    """Convert article HTML to Markdown, keeping headings, links,
+    bold/italics, lists and line breaks (important for poetry)."""
     soup = BeautifulSoup(html, "html.parser")
-    paragraphs = soup.find_all("p")
-    text = "\n\n".join(p.get_text(" ", strip=True) for p in paragraphs)
-    return text
+    for img in soup.find_all("img"):
+        if is_tracking_pixel(img.get("src", "")):
+            img.decompose()
+    return md(str(soup), heading_style="ATX").strip()
 
-def extract_images_from_html(html): 
-    """Extract image URLS from articles"""
+
+def extract_images_from_html(html):
+    """Extract real image URLs (skips Medium's tracking pixel)."""
     soup = BeautifulSoup(html, "html.parser")
-    images = soup.find_all("img")
-    return [img.get("src") for img in images if img.get("src")]
-
+    return [
+        img.get("src")
+        for img in soup.find_all("img")
+        if img.get("src") and not is_tracking_pixel(img.get("src"))
+    ]
 
 def main():
     print(f"Fetching feed: {FEED_URL}")

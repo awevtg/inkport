@@ -6,20 +6,30 @@
 
 JULY 2026
 
-I have lived behind blue doors. Blue skies folded over blush concrete. Tomorrow will be the day I will no longer be anywhere.
+I have lived behind blue doors.  
+ Blue skies folded over blush concrete.  
+ Tomorrow will be the day  
+ I will no longer be anywhere.
 
-Old playlists will remain unplayed. I am new, I will tell my old self. A new song, an unreleased album, will await. I will hold myself close. I am still here.
+Old playlists will remain unplayed.  
+ I am new, I will tell my old self.  
+ A new song, an unreleased album, will await.  
+ I will hold myself close. I am still here.
 
-I will cry and shout. I will sing the tune again, telling myself I am not the only one.
+I will cry and shout. I will sing the tune again,  
+ telling myself I am not the only one.
 
-I will call, save the numbers of strangers. I will remember, reminding myself: one tear, one day, just enough.
+I will call, save the numbers of strangers.  
+ I will remember, reminding myself:  
+ one tear, one day, just enough.
 
-I will reach out to say something, meaning everything, meaning nothing.
+I will reach out to say something,  
+ meaning everything,  
+ meaning nothing.
 
-I know you are on the other end, the end back home, back to you.
+I know you are on the other end,  
+ the end back home, back to you.
 
-## Images
+<https://medium.com/media/10b0aa3d06daf02f2420aa4bf1786b99/href>![](https://cdn-images-1.medium.com/max/593/1*avIRmLV6r0FVAx7dULpzSw.jpeg)
 
-![Image 1](https://cdn-images-1.medium.com/max/593/1*avIRmLV6r0FVAx7dULpzSw.jpeg)
-
-![Image 2](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b75d6d876298)
+[**paul.malon**](http://www.flickr.com/photos/paulmalon/)

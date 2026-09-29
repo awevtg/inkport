@@ -4,6 +4,10 @@
 
 **Tags:** `self-improvement`, `memoir`, `personal-essay`, `life-lessons`, `nostalgia`
 
+![](https://cdn-images-1.medium.com/max/736/0*2GUvySk_XjW6B_wb.jpeg)
+
+Время идёт, а я всё живу с одним чувством, которое испытал много лет назад
+
 I have been playing a game recently to distract myself from the impending doom coming like a crisis in my life. I am recalling my past memories, asking my mom questions about whether the timeline fits or not. I am trying to recall my earliest memory.
 
 The game is simple: you pick a memory while playing a heavy sentimental song, you close your eyes, it should be dark, or just cover them with your sweatshirt lying around. Take deep breaths, open a linked song is what I recommend, to avoid ads in between. Remember anything from yesterday, like the coffee cup you left on the table, or when your pen fell down, and you bent to pick it up… just things you think you remember doing every day. But in this memory, you remember yourself more clearly, remembering the exact clothes you wore, the way your hair was pinned at the back, the shirt riding up or coming loose. I swear it will be like watching a movie.
@@ -24,7 +28,7 @@ The things I did to distract myself surely worked. I haven’t written in… it�
 
 Good news is, I’m in college, and the bad news is washing clothes is hard, more hard than cutting fruits by yourself. I have been using claw clips, a hair accessory I thought only belonged to mothers. (I am wrong here; it’s just that, in a household of three women, my mother always used claw clips. The rubber bands were just for us, and despite having an elder sister, she never used one, or did, just that I haven’t seen it.)
 
-I took three books with me. One is this physics one, the other is The Alchemist (just because it has a pen-down note from my father), and the first Harry Potter book I ever read. It is brown, torn down. I travelled with it in my backpack instead of the carry-on; it would have fitted perfectly in it. I purchased some more books here, normal ones. I like my room, the food is passable, blinkit is just ten minutes here, and the vending machine is actively playing tricks with my money-managing cells, to make myself broke one day.
+I took three books with me. One is this physics one, the other is *The Alchemist* (just because it has a pen-down note from my father), and the first *Harry Potter* book I ever read. It is brown, torn down. I travelled with it in my backpack instead of the carry-on; it would have fitted perfectly in it. I purchased some more books here, normal ones. I like my room, the food is passable, blinkit is just ten minutes here, and the vending machine is actively playing tricks with my money-managing cells, to make myself broke one day.
 
 The first day I arrived in Delhi was just a day after I turned sixteen. I had a rover with me, which was already sent away for exhibition. I had a blue suitcase, a small old backpack, where the cake I cut in the train rested in the transparent plastic box. I didn’t eat the cake afterwards. I didn’t win anything there, even. The day I returned back from Delhi, I gave my Class 10 pre-board Maths paper in the afternoon, in which I scored 96.
 
@@ -34,16 +38,10 @@ The next time I came here, though, it was a simple cab ride from the airport, no
 
 While recalling this, I remember whatever has transpired these whole two weeks, and I feel this memory is enough as it is, without adding a layer to it about me writing this. This is special; it would hold more meaning if I said these things to someone.
 
-I don’t know who I am without them.
+![](https://cdn-images-1.medium.com/max/736/0*X2dhGqtP5s33oM5e.jpeg)
 
-Them. A man in his early fifties, married for thirty years to a woman now in her mid-forties. They have two daughters, the elder one twenty-two. They have no idea who I am becoming. And perhaps that’s why I don’t know who I am without them. It is one in the morning, and they have just left. I know how long it will take for them to reach the hotel, I know the cab they are in now, I know the intersection they have already passed by now, I close my eyes and I know that if I call them now, just now instead of writing this, they will turn back.
+*I don’t know who I am without them.*
+
+*Them. A man in his early fifties, married for thirty years to a woman now in her mid-forties. They have two daughters, the elder one twenty-two. They have no idea who I am becoming. And perhaps that’s why I don’t know who I am without them. It is one in the morning, and they have just left. I know how long it will take for them to reach the hotel, I know the cab they are in now, I know the intersection they have already passed by now, I close my eyes and I know that if I call them now, just now instead of writing this, they will turn back.*
 
 a draft of drafts, i am sorry that it has no structure.
-
-## Images
-
-![Image 1](https://cdn-images-1.medium.com/max/736/0*2GUvySk_XjW6B_wb.jpeg)
-
-![Image 2](https://cdn-images-1.medium.com/max/736/0*X2dhGqtP5s33oM5e.jpeg)
-
-![Image 3](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=cb2ffbc7625e)
